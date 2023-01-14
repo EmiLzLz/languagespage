@@ -1,0 +1,2 @@
+window.addEventListener("scroll",function(){hide()});let scrolling=window.pageYOffset;function hide(){let current=window.pageYOffset;if(scrolling>=current){document.getElementById("navbar").style.top="0"}else{document.getElementById("navbar").style.top="-100px"}
+scrolling=current}
